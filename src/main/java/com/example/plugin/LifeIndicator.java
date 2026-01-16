@@ -17,21 +17,6 @@ public class LifeIndicator extends JavaPlugin {
     @Override
     public void setup() {
         super.setup();
-        this.getCommandRegistry().registerCommand(
-            new HelloCommand(
-                "hello",
-                "Sends a hello message to the player.",
-                false
-            )
-        );
-        this.getCommandRegistry().registerCommand(
-            new VidaCommand(
-                "vida",
-                "Mostra a vida da entidade que você está olhando.",
-                false
-            )
-        );
-
         // Registrar tarefa periódica para mostrar vida automaticamente
         @SuppressWarnings("unchecked")
         ScheduledFuture<Void> task = (ScheduledFuture<Void>) HytaleServer.SCHEDULED_EXECUTOR.scheduleAtFixedRate(
