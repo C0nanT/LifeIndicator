@@ -2,6 +2,9 @@
 
 Mod para Hytale que mostra a vida dos animais e mobs quando você olha para eles.
 
+## CurseForge
+- https://legacy.curseforge.com/hytale/mods/life-indicator-beta
+
 ## Funcionalidades
 
 - Exibe uma barra de vida acima da cabeça da entidade quando o jogador olha para ela
