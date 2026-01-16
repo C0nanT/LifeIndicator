@@ -29,7 +29,7 @@ public class HelloCommand extends AbstractPlayerCommand {
         EventTitleUtil.showEventTitleToPlayer(
             playerRef,
             Message.raw("Hello, World!"),
-            Message.raw("Welcome to the server!").color(Color.BLUE),
+            Message.raw("Welcome to the server!"),
             true
         );
     }

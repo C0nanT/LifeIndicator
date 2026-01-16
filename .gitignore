@@ -34,3 +34,6 @@ nbdist/
 # OS-specific
 .DS_Store
 Thumbs.db
+
+/libs/src/*
+/libs/cfr.jar
