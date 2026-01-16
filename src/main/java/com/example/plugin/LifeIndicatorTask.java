@@ -99,8 +99,19 @@ public class LifeIndicatorTask implements Runnable {
     }
 
     private String createHealthBar(float health, float maxHealth) {
-        int barLength = 15;
         float percentage = health / maxHealth;
+        int barLength = 10;
+        
+        if(maxHealth >= 200) {
+            barLength = 30;
+        }else if(maxHealth >= 100) {
+            barLength = 25;
+        }else if(maxHealth >= 50) {
+            barLength = 20;
+        }else if(maxHealth >= 25) {
+            barLength = 15;
+        }
+
         int filledBars = Math.round(percentage * barLength);
 
         StringBuilder bar = new StringBuilder();
