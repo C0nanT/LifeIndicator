@@ -1,6 +1,6 @@
 # LifeIndicator
 
-Mod para Hytale que mostra a vida dos animais e mobs quando você olha para eles.
+Mod para Hytale que mostra a vida dos animais e mobs quando você olha para eles
 
 ## CurseForge
 - https://legacy.curseforge.com/hytale/mods/life-indicator-beta
